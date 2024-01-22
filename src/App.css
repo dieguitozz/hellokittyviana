@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,16 +19,23 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #FAA9D2;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  font-size: 1.8em;
   color: white;
 }
-
+img{
+  margin-left: 1em;
+}
+h1{
+  height: 240px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 1em;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +47,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  color: #F94899;
+  height: 100vh;
+}
+.hellokitty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10em;
+}
+.gay{
+  margin-top: 8em;
+}
+.kitty{
+  margin-top: 20em;
 }
